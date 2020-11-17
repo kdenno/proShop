@@ -6,6 +6,7 @@ import { Row, Col } from "react-bootstrap";
 function HomeScreen() {
   return (
     <>
+      <h1>Welcome to ProShop</h1>
       <h1>Latest Products</h1>
       <Row>
         {products.map((product) => {
